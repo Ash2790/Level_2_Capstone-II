@@ -1,0 +1,39 @@
+FoodQuick Pseudocode
+
+Class Customer:
+	- Attributes: orderNumber, name, contactNumber, address, location, email, restaurantName, restaurantLocation, restaurantContact, mealsOrdered, specialInstructions, totalAmount
+	- Methods: placeOrder()
+                   displayOrderDetails()
+
+Class Driver:
+	- Attributes: name, location, currentLoad
+	- Methods: updateLoad()
+                   assignOrder()
+
+Class Order:
+	- Attributes: customer, driver, meals, specialInstructions, totalAmount
+	- Methods: assignDriver()
+                   displayInvoice()
+
+Class Restaurant:
+	- Attributes: name, location, contactNumber, menu
+	- Methods: getMenu()
+                   placeOrder()
+
+Class Meal:
+	- Attributes: name, price
+
+Main Program:
+	- Read driver information from drivers.txt file
+	- Create a list of Driver objects
+	- Loop until program is terminated
+		+ Get customer information
+		+ Create a Customer object
+		+ Get restaurant information
+		+ Create a Restaurant object
+		+ Get meal information
+		+ Create a Meal object
+		+ Create an Order object
+		+ Assign a driver to the order
+		+ Display the invoice
+
