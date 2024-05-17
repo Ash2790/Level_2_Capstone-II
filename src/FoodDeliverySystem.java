@@ -35,7 +35,7 @@ public class FoodDeliverySystem {
         Restaurant restaurant = new Restaurant(restaurantName, restaurantLocation, restaurantContactNumber);
         restaurants.add(restaurant);
 
-        // Read drivers.txt file and find the driver in the correct area with the smallest load
+        // Read driver-info.txt file and find the driver in the correct area with the smallest load
         String driverName = findDriver(location);
 
         // Generate invoice
@@ -58,7 +58,7 @@ public class FoodDeliverySystem {
 
     private static String findDriver(String location) {
         try {
-            File file = new File("drivers.txt");
+            File file = new File("driver-info.txt");
             Scanner scanner = new Scanner(file);
 
             String driverName = "";

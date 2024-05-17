@@ -1,0 +1,18 @@
+Order number: 8555
+Customer: Ashton
+Email: ashton at gmail.com
+Phone number: 075 565 2585
+Location: Johannesburg
+
+You have ordered the following from Burger King in Johannesburg:
+- 1 x Pepperoni pizza (R78.00)
+- 1 x Hawaiian pizza (R82.00)
+Special instructions: Extra tomato base on the Pepperoni pizza
+
+Total: R242.0
+
+Eisa Wilson is nearest to the restaurant and so he will be delivering your order to you at:
+23 High Road
+Johannesburg
+
+If you need to contact the restaurant, their number is 011 456 5522.
