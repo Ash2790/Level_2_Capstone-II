@@ -1,7 +1,7 @@
-Order number: 8555
+Order number: 1454
 Customer: Ashton
-Email: ashton at gmail.com
-Phone number: 075 565 2585
+Email: ashton@hyperiondev.co.za
+Phone number: 078 565 5255
 Location: Johannesburg
 
 You have ordered the following from Burger King in Johannesburg:
@@ -12,7 +12,7 @@ Special instructions: Extra tomato base on the Pepperoni pizza
 Total: R242.0
 
 Eisa Wilson is nearest to the restaurant and so he will be delivering your order to you at:
-23 High Road
+23 Gootuff Road, Oakdene
 Johannesburg
 
-If you need to contact the restaurant, their number is 011 456 5522.
+If you need to contact the restaurant, their number is 011 462 5100.

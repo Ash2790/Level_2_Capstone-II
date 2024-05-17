@@ -96,7 +96,7 @@ public class FoodDeliverySystem {
 
     private static void generateInvoice(Customer customer, Restaurant restaurant, String driverName) {
         try {
-            FileWriter writer = new FileWriter("invoice.txt");
+            FileWriter writer = new FileWriter("customer_invoice.txt");
 
             writer.write("Order number: " + customer.getOrderNumber() + "\n");
             writer.write("Customer: " + customer.getCustomerName() + "\n");
